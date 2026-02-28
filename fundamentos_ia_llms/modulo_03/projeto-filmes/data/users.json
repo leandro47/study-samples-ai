@@ -1,0 +1,261 @@
+[
+    {
+        "id": 1,
+        "name": "Ana Lima",
+        "age": 25,
+        "watched": [
+            {
+                "id": 1,
+                "name": "Vingadores: Ultimato",
+                "category": "ação",
+                "duration": 181,
+                "year": 2019,
+                "rating": 8.4,
+                "genres": ["ação", "ficção", "aventura"],
+                "director": "Russo Brothers"
+            },
+            {
+                "id": 11,
+                "name": "Vingadores: Guerra Infinita",
+                "category": "ação",
+                "duration": 149,
+                "year": 2018,
+                "rating": 8.4,
+                "genres": ["ação", "ficção", "aventura"],
+                "director": "Russo Brothers"
+            },
+            {
+                "id": 5,
+                "name": "Mad Max: Estrada da Fúria",
+                "category": "ação",
+                "duration": 120,
+                "year": 2015,
+                "rating": 8.1,
+                "genres": ["ação", "aventura", "ficção"],
+                "director": "George Miller"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Bruno Ferreira",
+        "age": 32,
+        "watched": [
+            {
+                "id": 2,
+                "name": "Interestelar",
+                "category": "ficção",
+                "duration": 169,
+                "year": 2014,
+                "rating": 8.6,
+                "genres": ["ficção", "drama", "aventura"],
+                "director": "Christopher Nolan"
+            },
+            {
+                "id": 6,
+                "name": "A Chegada",
+                "category": "ficção",
+                "duration": 116,
+                "year": 2016,
+                "rating": 7.9,
+                "genres": ["ficção", "drama", "suspense"],
+                "director": "Denis Villeneuve"
+            },
+            {
+                "id": 10,
+                "name": "Duna",
+                "category": "ficção",
+                "duration": 155,
+                "year": 2021,
+                "rating": 8.0,
+                "genres": ["ficção", "aventura", "drama"],
+                "director": "Denis Villeneuve"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Camila Souza",
+        "age": 20,
+        "watched": [
+            {
+                "id": 7,
+                "name": "Toy Story 4",
+                "category": "animação",
+                "duration": 100,
+                "year": 2019,
+                "rating": 7.7,
+                "genres": ["animação", "aventura", "comédia"],
+                "director": "Josh Cooley"
+            },
+            {
+                "id": 12,
+                "name": "Frozen II",
+                "category": "animação",
+                "duration": 103,
+                "year": 2019,
+                "rating": 7.0,
+                "genres": ["animação", "aventura", "musical"],
+                "director": "Chris Buck"
+            },
+            {
+                "id": 3,
+                "name": "O Rei Leão",
+                "category": "animação",
+                "duration": 118,
+                "year": 2019,
+                "rating": 7.1,
+                "genres": ["animação", "drama", "aventura"],
+                "director": "Jon Favreau"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Diego Almeida",
+        "age": 35,
+        "watched": [
+            {
+                "id": 4,
+                "name": "Parasita",
+                "category": "drama",
+                "duration": 132,
+                "year": 2019,
+                "rating": 8.5,
+                "genres": ["drama", "suspense"],
+                "director": "Bong Joon-ho"
+            },
+            {
+                "id": 8,
+                "name": "Coringa",
+                "category": "drama",
+                "duration": 122,
+                "year": 2019,
+                "rating": 8.4,
+                "genres": ["drama", "suspense"],
+                "director": "Todd Phillips"
+            },
+            {
+                "id": 2,
+                "name": "Interestelar",
+                "category": "ficção",
+                "duration": 169,
+                "year": 2014,
+                "rating": 8.6,
+                "genres": ["ficção", "drama", "aventura"],
+                "director": "Christopher Nolan"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Eduarda Nunes",
+        "age": 28,
+        "watched": [
+            {
+                "id": 1,
+                "name": "Vingadores: Ultimato",
+                "category": "ação",
+                "duration": 181,
+                "year": 2019,
+                "rating": 8.4,
+                "genres": ["ação", "ficção", "aventura"],
+                "director": "Russo Brothers"
+            },
+            {
+                "id": 9,
+                "name": "Homem-Aranha: Sem Volta para Casa",
+                "category": "ação",
+                "duration": 148,
+                "year": 2021,
+                "rating": 8.2,
+                "genres": ["ação", "aventura", "ficção"],
+                "director": "Jon Watts"
+            },
+            {
+                "id": 7,
+                "name": "Toy Story 4",
+                "category": "animação",
+                "duration": 100,
+                "year": 2019,
+                "rating": 7.7,
+                "genres": ["animação", "aventura", "comédia"],
+                "director": "Josh Cooley"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Felipe Martins",
+        "age": 40,
+        "watched": [
+            {
+                "id": 4,
+                "name": "Parasita",
+                "category": "drama",
+                "duration": 132,
+                "year": 2019,
+                "rating": 8.5,
+                "genres": ["drama", "suspense"],
+                "director": "Bong Joon-ho"
+            },
+            {
+                "id": 6,
+                "name": "A Chegada",
+                "category": "ficção",
+                "duration": 116,
+                "year": 2016,
+                "rating": 7.9,
+                "genres": ["ficção", "drama", "suspense"],
+                "director": "Denis Villeneuve"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Gabriela Costa",
+        "age": 18,
+        "watched": [
+            {
+                "id": 9,
+                "name": "Homem-Aranha: Sem Volta para Casa",
+                "category": "ação",
+                "duration": 148,
+                "year": 2021,
+                "rating": 8.2,
+                "genres": ["ação", "aventura", "ficção"],
+                "director": "Jon Watts"
+            },
+            {
+                "id": 12,
+                "name": "Frozen II",
+                "category": "animação",
+                "duration": 103,
+                "year": 2019,
+                "rating": 7.0,
+                "genres": ["animação", "aventura", "musical"],
+                "director": "Chris Buck"
+            },
+            {
+                "id": 1,
+                "name": "Vingadores: Ultimato",
+                "category": "ação",
+                "duration": 181,
+                "year": 2019,
+                "rating": 8.4,
+                "genres": ["ação", "ficção", "aventura"],
+                "director": "Russo Brothers"
+            },
+            {
+                "id": 11,
+                "name": "Vingadores: Guerra Infinita",
+                "category": "ação",
+                "duration": 149,
+                "year": 2018,
+                "rating": 8.4,
+                "genres": ["ação", "ficção", "aventura"],
+                "director": "Russo Brothers"
+            }
+        ]
+    }
+]
