@@ -1,0 +1,36 @@
+{
+    "name": "llms-fundamentals-demo",
+    "version": "1.0.0",
+    "description": "Demonstração prática de como funcionam LLMs, Transformers, Embeddings e Attention",
+    "main": "examples/run.js",
+    "scripts": {
+        "start": "node examples/run.js",
+        "embeddings": "node examples/embeddings.js",
+        "attention": "node examples/attention.js",
+        "transformer": "node examples/transformer.js",
+        "generation": "node examples/generation.js",
+        "demo": "node examples/run.js all"
+    },
+    "keywords": [
+        "llm",
+        "transformers",
+        "embeddings",
+        "attention",
+        "machine-learning",
+        "nlp",
+        "ai",
+        "deep-learning"
+    ],
+    "author": "AI Fundamentals Course",
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ai-fundamentals/llms-demo"
+    },
+    "bin": {
+        "llm-demo": "./examples/run.js"
+    }
+}
