@@ -134,7 +134,7 @@ const outputYs = tf.tensor2d(tensorLabels)
 // dos dados
 const model = await trainModel(inputXs, outputYs)
 
-const pessoa = { nome: 'zé', idade: 50, cor: 'verde', localizacao: "São Paulo", capitalSocial: 550000 }
+const pessoa = { nome: 'zé', idade: 30, cor: 'vermelho', localizacao: "São Paulo", capitalSocial: 550000 }
 // Normalizando a idade da nova pessoa usando o mesmo padrão do treino
 // Exemplo: idade_min = 25, idade_max = 40, então (28 - 25) / (40 - 25 ) = 0.2
 // Para o capital social usamos capital_min = 120000 e capital_max = 800000
@@ -143,8 +143,8 @@ const pessoaTensorNormalizado = [
     [
         normalizarIdade(pessoa.idade), // idade normalizada
         0,    // cor azul
-        0,    // cor vermelho
-        1,    // cor verde
+        1,    // cor vermelho
+        0,    // cor verde
         1,    // localização São Paulo
         0,    // localização Rio
         0,    // localização Curitiba
