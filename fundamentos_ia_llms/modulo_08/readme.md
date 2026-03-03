@@ -5,13 +5,26 @@
 - Adicionar os MCPs necessários
 - Reiniciar o Cursor
 
+### Playwrighter
+- Gerar testes automatizados automaticamente
+- Navegar pelo site
+- Realizar ações
+- Validar resultados
+
 Exemplo:
 ```json
 {
   "mcpServers": {
-    "exa": {
+    "playwright": {
+      "args": [
+        "@playwright/mcp@latest",
+        "--extension"
+      ],
       "command": "npx",
-      "args": ["-y", "@exa/cli/mcp"]
+      "disabled": false,
+      "env": {
+        "PLAYWRIGHT_MCP_EXTENSION_TOKEN": "xYiQse6QCRBUc0K_IkWwdzsT3DVAoUvdSVzBUnN9YrA"
+      }
     }
   }
 }
